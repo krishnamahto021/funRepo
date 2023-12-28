@@ -33,7 +33,6 @@ function App() {
 
     setImageUrl("https://tenor.com/view/tkthao219-bubududu-gif-25041153.gif");
   };
-  console.log(happy);
   return (
     <div className="flex flex-col bg-gradient-to-t from-[#bde0fe] to-[#a2d2ff] p-2 min-h-screen items-center justify-center gap-3 relative">
       <div className="text-xl p-1 sm:text-2xl md:text-3xl lg:text-4xl font-normal text-[#03045e] capitalize">
@@ -47,7 +46,7 @@ function App() {
 
       <div className="buttonsContainer flex text-xl gap-5 justify-between  ">
         {happy ? (
-          <button className="bg-[#8ecae6] p-4 w-28 rounded-md hover:bg-white hover:scale-125 duration-200">
+          <button className="bg-[#8ecae6] p-4 w-full rounded-md hover:bg-white hover:scale-125 duration-200">
             Let"s Fix Date
           </button>
         ) : (
